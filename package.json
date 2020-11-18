@@ -1,0 +1,20 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "primer proyecto de node",
+  "main": "index.js",
+  "scripts": {
+    "dime": "cowsay Hola mundo ",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cowsay": "^1.4.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11"
+  }
+}
